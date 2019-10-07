@@ -1,0 +1,36 @@
+# dependencies
+
+*/node_modules
+/node_modules
+node_modules/**/*
+/.pnp
+.pnp.js
+*/.expo
+*/.expo-shared
+
+# testing
+/coverage
+./backend/uploads/*
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
